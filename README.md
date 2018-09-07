@@ -260,3 +260,17 @@ See also the list of [contributors](https://github.com/electronicayciencia/wPi_s
 
 This is free and unencumbered software released into the public domain. See the [LICENSE](LICENSE) file for details.
 
+## Install notes by Spuhpointer
+
+```
+$ sudo apt-get install libreadline-dev 
+$ git clone https://github.com/WiringPi/WiringPi/
+$ cd WiringP
+$ sudo ./build
+$ git clone https://github.com/electronicayciencia/wPi_soft_i2c
+$ cd wPi_soft_i2c
+$ make all
+```
+
+
+
